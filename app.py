@@ -8,6 +8,7 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/mile")
+@app.route("/mile", methods=["POST"])
 def mile():
     return render_template("mile.html", name=request.args.get("name", "World"))
+
