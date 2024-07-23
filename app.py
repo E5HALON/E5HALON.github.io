@@ -10,5 +10,5 @@ def index():
 
 @app.route("/mile", methods=["POST"])
 def mile():
-    return render_template("mile.html", name=request.args.get("name", "World"))
+    return render_template("mile.html", name=request.form.get("name", "World"))
 
