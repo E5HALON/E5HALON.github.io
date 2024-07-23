@@ -16,3 +16,7 @@ def signin():
 @app.route("/info")
 def info():
     return render_template("info.html")
+
+@app.route("/User Profile", methods=["POST"])
+def userprofile():
+    return render_template("User Profile.html", name=request.form.get("E-mail"))

@@ -6,8 +6,14 @@
         <meta name="viewport" content="initial-scale=1, width=device-width">
         <title>Sign-in</title>
     </head>
-    <body>
-        Hello, {% name %}
+    <body text align:center>
+        Hello, {{ name }}
+        <br>
+        <form action="/User Profile" text align:center methods="post">
+            <input autocomplete="off" autofocus="on" name="E-mail" placeholder="E-mail" type="text">
+            <input autocomplete="off" autofocus="on" name="Password" placeholder="Password" type="text">
+            <button type="submit">Sign-in</button>
+        </form>
     </body>
 
 </html>
