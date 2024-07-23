@@ -7,3 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+
+@app.route("/mile")
+def mile():
+    return render_template("mile.html", name=request.args.get("name", "World"))
