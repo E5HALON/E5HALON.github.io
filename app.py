@@ -10,7 +10,7 @@ def Home():
 
 @app.route("/Sign-in", method=["POST"])
 def signin():
-    return render_template("Sign-in.html", name=request.form.get("name", "World"))
+    return render_template("Sign-in.html")
 
 
 @app.route("/info")
