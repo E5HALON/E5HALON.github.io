@@ -8,7 +8,7 @@ def Home():
     return render_template("index.html")
 
 
-@app.route("/Sign-in", method=["POST"])
+@app.route("/Sign-in")
 def signin():
     return render_template("Sign-in.html")
 
@@ -17,6 +17,7 @@ def signin():
 def info():
     return render_template("info.html")
 
-@app.route("/User Profile", method=["POST"])
+
+@app.route("/User Profile")
 def userprofile():
-    return render_template("User Profile.html", name=request.form.get("E-mail"))
+    return render_template("User Profile.html")
