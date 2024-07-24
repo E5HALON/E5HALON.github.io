@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def index():
-    return render_template("index.html")
+def Home():
+    return render_template("Home.html")
 
 
 @app.route("/Sign-in", method=["POST"])
