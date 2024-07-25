@@ -21,3 +21,8 @@ def info():
 @app.route("/User Profile")
 def userprofile():
     return render_template("User Profile.html")
+
+
+@app.route("/Create Account")
+def userprofile():
+    return render_template("Create Account.html")
