@@ -1,5 +1,12 @@
 body{
+    background-color: black;
+}
+header{
     margin: auto;
+    background-color: rgb(80, 80, 80);
+}
+#headerh1{
+    color: white;
 }
 #donotclickbutton{
     font-size: 25px; 
@@ -7,16 +14,10 @@ body{
     background-color: rgb(255, 0, 0); 
     color:black
 }
-header{
-    background-color: rgb(80, 80, 80);
-}
-#headerh1{
-    color: white;
-}
 main{
-    background-color: black;
-    color: white;
+    margin: auto;
 }
 footer{
+    margin: auto;
     background-color: rgb(80, 80, 80);
 }

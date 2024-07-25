@@ -1,8 +1,5 @@
-body{
-    margin: auto;
-    background-color: lightgray;
-}
 header{
+    margin: auto;
     background-color:rgb(190, 190, 255);
 }
 #headerh1{
@@ -16,9 +13,8 @@ header{
     font-size: 15px; 
     border-radius: 25px;
 }
-#aud1{
-    background-color: black; 
-    color: beige;
+main{
+    margin: auto;
 }
 #husky1{
     float: left;
@@ -30,5 +26,6 @@ header{
     box-shadow: 3px 3px 5px black;
 }
 footer{
+    margin: auto;
     background-color:rgb(204, 204, 255);
 }
