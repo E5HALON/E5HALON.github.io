@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+}
+#donotclickbutton{
+    font-size: 25px; 
+    border-radius: 25px; 
+    background-color: rgb(255, 0, 0); 
+    color:black
+}
+header{
+    background-color: rgb(80, 80, 80);
+}
+#headerh1{
+    color: white;
+}
+main{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: rgb(80, 80, 80);
+}

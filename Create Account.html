@@ -14,21 +14,23 @@
             <h1><mark style="background-color: rgb(255, 0, 0)"><b>WORK IN PROGRESS</b></mark></h1>
         </header>
         <main align="center">
-
-            <input type="email" id="email" placeholder="E-Mail@Example.com" required><br>
-            <input type="tel" id="phone" placeholder="Phone 123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
-            <input type="text" id="username" placeholder="Username" minlength="4" maxlength="16" required><br>
-            <input type="password" id="password" placeholder="password" required><br>
-            <input type="date" id="bday" required><br>
-            <select id="gender">
-                <option disabled>Gender</option>
-                <option value="Man">Man</option>
-                <option value="Woman">Woman</option>
-                <option value="none">Rather not Answer</option>
-            </select>
-            <a href="Sign-in.html">
-                <button style="color:black; background-color: rgb(0, 255, 0); border-radius: 25px; font-size: 20px" type="submit">CREATE ACCOUNT</button>
-            </a>
+            <form>
+                <input required type="email" id="email" placeholder="E-Mail@Example.com"><br>
+                <input type="tel" id="phone" placeholder="Phone 123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
+                <input required type="text" id="username" placeholder="Username" minlength="4" maxlength="16"><br>
+                <input required type="password" id="password" placeholder="password"><br>
+                <label>Birthdate:</label>
+                <input required type="date" id="bday"><br>
+                <select id="gender">
+                    <option disabled>Gender</option>
+                    <option value="Man">Man</option>
+                    <option value="Woman">Woman</option>
+                    <option value="none">Rather not Answer</option>
+                </select><br><br>
+                <a href="Sign-in.html">
+                    <button style="color:black; background-color: rgb(0, 255, 0); border-radius: 25px; font-size: 20px" type="submit">CREATE ACCOUNT</button>
+                </a>
+            </form>
 
         </main>
         <footer align="center" style="background-color:rgb(204, 204, 255)">

@@ -7,12 +7,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="initial-scale=1, width=device-width">
         <link rel="icon" type="image/png" href="Images/cctv-world.png">
+        <link rel="stylesheet" href="Stylesheets/indexstyle.css">
         <title>Home</title>
     </head>
     <body>
-        <header align="center" style="background-color:rgb(190, 190, 255)">
+        <header>
             <hr>
-            <h1>Welcome to E5HALON's Homepage</h1>
+            <h1 id="headerh1">Welcome to E5HALON's Homepage</h1>
 
             <form action="/Sign-in">
                 <input required autocomplete="off" autofocus="on" name="name" placeholder="Name" type="text">
@@ -20,14 +21,14 @@
             </form>
             <br>
             <a href="info.html">
-                <button style="font-size: 15px; border-radius: 25px;" type="submit">INFO</button>
+                <button id="infobutton" type="submit">INFO</button>
             </a>
             <hr>
         </header>
-        <main align="center">
+        <main>
             <h2>Some College</h2>
             <h5>By: National Sweetheart</h5>
-            <audio controls loop>
+            <audio id="aud1" controls loop>
                 <source src="Music/Some College - National Sweetheart.mp3" type="audio/mpeg">
             </audio>
             <br>
@@ -36,17 +37,16 @@
                 <b>Youtube Studio</b>
             </a>
             <br>
-            <br>
-
-            <a href="https://pixabay.com/illustrations/husky-dog-pet-germany-snow-nature-7687372/">
+            <a id="husky1" href="https://pixabay.com/illustrations/husky-dog-pet-germany-snow-nature-7687372/">
                 <img src="Images/husky-1.jpg"
                 alt="This is a picture of a dog"
                 title="Pixabay.com"
                 height="400">
             </a>
+            <div id="box1">Test Box</div>
 
         </main>
-        <footer align="center" style="background-color:rgb(204, 204, 255)">
+        <footer>
             <hr>
             <a href="https://mail.google.com/" target="_blank" title="https://mail.google.com/">GMAIL</a>
             <a href="https://mail.yahoo.com/" target="_blank" title="https://mail.yahoo.com/">YAHOO</a>
