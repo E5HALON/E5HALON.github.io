@@ -1,12 +1,15 @@
 body{
-    align-items: center;
     background-color: black;
 }
 header{
+    align-self: auto;
     background-color: rgb(80, 80, 80);
 }
 #headerh1{
     color: white;
+}
+main{
+    align-content: center;
 }
 #donotclickbutton{
     font-size: 25px; 
@@ -15,5 +18,6 @@ header{
     color:black
 }
 footer{
+    align-self: center;
     background-color: rgb(80, 80, 80);
 }
