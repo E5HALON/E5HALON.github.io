@@ -2,22 +2,25 @@ body{
     background-color: black;
 }
 header{
-    align-self: auto;
     background-color: rgb(80, 80, 80);
 }
 #headerh1{
+    margin-left: 400px;
+    font-size: 50px;
     color: white;
 }
-main{
-    align-content: center;
-}
 #donotclickbutton{
+    margin-right: 300px;
     font-size: 25px; 
     border-radius: 25px; 
     background-color: rgb(255, 0, 0); 
     color:black
 }
 footer{
-    align-self: center;
     background-color: rgb(80, 80, 80);
+}
+#infosub{
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

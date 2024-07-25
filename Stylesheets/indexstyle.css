@@ -1,8 +1,11 @@
+body{
+    background-color: gray;
+}
 header{
     background-color:rgb(190, 190, 255);
 }
 #headerh1{
-    align-items: center;
+    margin-left: 300px;
     border: 4px solid blue;
     border-left: 5px;
     border-top: 3px;
@@ -16,22 +19,18 @@ header{
     font-size: 15px; 
     border-radius: 25px;
 }
-main{
-    background-color: gray;
-}
 #husky1{
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 400px;
     margin-bottom: 100px;
 }
 #box1{
-    align-self: center;
-    width: 100px;
-    height: 100px;
+    margin-right: 200px;
+    width: 200px;
+    height: 200px;
     background-color: grey;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
 }
 footer{
-    align-items: center;
     background-color:rgb(204, 204, 255);
 }
