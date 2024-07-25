@@ -1,5 +1,5 @@
 header{
-    margin: auto;
+    align-items: center;
     background-color:rgb(190, 190, 255);
 }
 #headerh1{
@@ -16,10 +16,9 @@ header{
     border-radius: 25px;
 }
 main{
-    margin: auto;
+    align-items: center;
 }
 #husky1{
-    float: left;
     margin-bottom: 10px;
 }
 #box1{
@@ -29,6 +28,6 @@ main{
     box-shadow: 3px 3px 5px black;
 }
 footer{
-    margin: auto;
+    align-items: center;
     background-color:rgb(204, 204, 255);
 }
