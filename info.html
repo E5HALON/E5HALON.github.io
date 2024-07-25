@@ -16,11 +16,15 @@
             </h1>
         </header>
         <main>
-            <p>
-                I first started learning computer science in early July of 2024. 
-                This is my first attempt at coding/programming besides the little
-                problem solving projects through the CS50 computer science course.
+            <button onclick="displayinfo()" style="font-size: 25px; border-radius: 25px; background-color: rgb(255, 0, 0); color:black">DO NOT PUSH</button>
+            <p id="infor">
+
             </p>
+            <script>
+                function displayinfo(){
+                    document.getElementById("infor").innerHTML = "I first started learning computer science in early July of 2024. This is my first attempt at coding/programming besides the little problem solving projects through the CS50 computer science course."
+                }
+            </script>
         </main>
         <footer align="center" style="background-color:rgb(204, 204, 255)">
             <hr>

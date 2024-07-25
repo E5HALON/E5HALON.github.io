@@ -16,14 +16,14 @@
             </h1>
             
             <form align="center" action="/User Profile">
-                <input autocomplete="on" autofocus="on" name="Username" placeholder="Username" type="text">
-                <input autocomplete="off" name="Password" placeholder="Password" type="text">
+                <input required autocomplete="on" autofocus="on" name="Username" placeholder="Username" type="text" minlength="4" maxlength="16">
+                <input required autocomplete="off" name="Password" placeholder="Password" type="text" minlength="6">
                 <button type="submit">Sign-in</button>
             </form>
         </header>
         <main>
 
-            
+            <button action="/Create Account.html" style="font-size: 25px; border-radius: 25px">Create Account</button>
 
         </main>
         <footer align="center" style="background-color:rgb(204, 204, 255)">
