@@ -1,0 +1,17 @@
+/* Header */
+h1{
+    text-align: center;
+    background-color: black;
+    color: red;
+    font-size: 50px;
+}
+/* Main */
+
+
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color:rgb(204, 204, 255);
+    color: black;
+}

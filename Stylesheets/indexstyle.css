@@ -3,53 +3,57 @@ body{
 }
 /* Header */
 header{
-    background-color:rgb(190, 190, 255);
+    background-image: url(Images/airport-1.png);
+    width: 100%;
+    margin-top: 100%;
 }
-#headerh1{
-    color: blue; 
+h1{
+    color: blue;
+    background: linear-gradient(90deg, rgb(127, 0, 127),rgb(0,127,127));
     font-family: sans-serif;
-    font-size: 100px;
-    text-shadow: 5px 5px 4px red, -5px -5px 4px red;
+    font-size: 75px;
+    text-shadow: 5px 5px 4px red, -5px -5px 4px red, -5px 5px 4px red, 5px -5px 4px red;
     text-align: center;
-    margin-top: 4px;
 }
-#namefield{
-    align-items: center;
+.input{
+    margin: auto;
 }
 #infobutton{
     background-color:rgb(0, 255, 242); 
     font-size: 15px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 25px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 /* Main */
 #section1{
-    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
 }
 #syoulink{
-    margin-left: 10px;
+    margin-left: 30px;
 }
 #husky1{
     margin-left: 100px;
-    padding: 10px;
 }
 #box1{
-    width: 200px;
+    width: 100%;
     height: 200px;
-    background-color: yellow;
-    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
-    margin-right: auto;
-    margin-left: auto;
+    background: linear-gradient(45deg, orange, red, purple, green, yellow);
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black, -3px 3px 5px black, 3px -3px 5px black;
+
 }
 /* Footer */
 footer{
-    background-color:rgb(204, 204, 255);
+    background-image: url(Images/Mountain-forest.png);
     text-align: center;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    width: 100%;
+    border-top: 5px;
+    border-bottom: 10px;
 }
 .maillink{
-    padding: 2px;
+    text-align: 7px auto;
+    color: black;
 }

@@ -4,16 +4,21 @@ body{
 /* Header */
 header{
     background-color: rgb(80, 80, 80);
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(90deg blue, black blue);
+    color: aqua, ghostwhite, aqua;
 }
 /* Main */
-#donotclickbutton{
+.button{
     font-size: 25px; 
     border-radius: 20px; 
     background-color: rgb(255, 0, 0); 
     color:black;
-    text-align: center;
+    margin: auto;
 }
 p{
     color: white
@@ -22,4 +27,7 @@ p{
 footer{
     background-color: rgb(80, 80, 80);
     text-align: center;
+}
+a{
+    color: black;    
 }
