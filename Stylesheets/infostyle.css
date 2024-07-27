@@ -1,26 +1,25 @@
 body{
     background-color: black;
 }
+/* Header */
 header{
     background-color: rgb(80, 80, 80);
+    margin-left: auto;
+    margin-right: auto;
 }
-#headerh1{
-    margin-left: 400px;
-    font-size: 50px;
-    color: white;
-}
+/* Main */
 #donotclickbutton{
-    margin-right: 300px;
     font-size: 25px; 
     border-radius: 25px; 
     background-color: rgb(255, 0, 0); 
-    color:black
+    color:black;
 }
+#infor{
+    color: white
+}
+/* Footer */
 footer{
     background-color: rgb(80, 80, 80);
-}
-#infosub{
-    margin-left: 400px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }

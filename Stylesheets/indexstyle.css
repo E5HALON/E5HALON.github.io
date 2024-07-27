@@ -1,17 +1,14 @@
 body{
     background-color: gray;
 }
+/* Header */
 header{
     background-color:rgb(190, 190, 255);
 }
 #headerh1{
-    margin-left: 300px;
-    border: 4px solid blue;
-    border-left: 5px;
-    border-top: 3px;
-    box-shadow: 3px 3px 5px darkblue, -3px -3px 5px darkblue;
     color: blue; 
-    font-family: fantasy, pacifico;
+    font-family: pacifico;
+    font-size: 50px;
     text-shadow: 5px 5px 5px red, -5px -5px 5px red;
 }
 #infobutton{
@@ -19,18 +16,33 @@ header{
     font-size: 15px; 
     border-radius: 25px;
 }
+/* Main */
 #husky1{
-    margin-top: 100px;
-    margin-left: 400px;
-    margin-bottom: 100px;
+    margin-left: 100px;
 }
 #box1{
-    margin-right: 200px;
+    margin-right: auto;
+    margin-left: auto;
     width: 200px;
     height: 200px;
     background-color: grey;
     box-shadow: 3px 3px 5px black, -3px -3px 5px black;
 }
+/* Footer */
 footer{
     background-color:rgb(204, 204, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+#gmaillink{
+    margin-right: 3px;
+}
+#ymaillink{
+    margin-right: 2px;
+}
+#outlooklink{
+    margin-left: 2px;
+}
+#aollink{
+    margin-left: 3px;
 }
