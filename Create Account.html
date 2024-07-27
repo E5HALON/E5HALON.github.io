@@ -6,29 +6,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="Images/cctv-world.png">
+        <link rel="stylesheet" href="Stylesheets/createaccountstyle.css">
         <title>Create Account</title>
     </head>
     <body>
-
-        <header align="center">
-            <h1><mark style="background-color: rgb(255, 0, 0)"><b>WORK IN PROGRESS</b></mark></h1>
+        <header>
+            <h1 id="headerh1">WORK IN PROGRESS</h1>
         </header>
-        <main align="center">
+        <main>
             <form>
-                <input required type="email" id="email" placeholder="E-Mail@Example.com"><br>
-                <input type="tel" id="phone" placeholder="Phone 123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
-                <input required type="text" id="username" placeholder="Username" minlength="4" maxlength="16"><br>
-                <input required type="password" id="password" placeholder="password"><br>
-                <label>Birthdate:</label>
-                <input required type="date" id="bday"><br>
-                <select id="gender">
-                    <option disabled>Gender</option>
+                <input class="formline" required type="email" id="email" placeholder="E-Mail@Example.com"><br>
+                <input class="formline" type="tel" id="phone" placeholder="Phone 123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
+                <input class="formline" required type="text" id="username" placeholder="Username" minlength="4" maxlength="16"><br>
+                <input class="formline" type="password" id="password" placeholder="password"><br>
+                <section class="formline">
+                    <label>Birthdate:</label>
+                    <input required type="date" id="bday">
+                </section><br>
+                <select class="formline" id="gender">
+                    <option disabled selected>Gender</option>
                     <option value="Man">Man</option>
                     <option value="Woman">Woman</option>
                     <option value="none">Rather not Answer</option>
                 </select><br><br>
                 <a href="Sign-in.html">
-                    <button style="color:black; background-color: rgb(0, 255, 0); border-radius: 25px; font-size: 20px" type="submit">CREATE ACCOUNT</button>
+                    <button style="color:black; background-color: rgb(0, 200, 0); border-radius: 20px; font-size: 20px" type="submit">CREATE ACCOUNT</button>
                 </a>
             </form>
 

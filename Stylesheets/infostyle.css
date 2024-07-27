@@ -10,16 +10,16 @@ header{
 /* Main */
 #donotclickbutton{
     font-size: 25px; 
-    border-radius: 25px; 
+    border-radius: 20px; 
     background-color: rgb(255, 0, 0); 
     color:black;
+    text-align: center;
 }
-#infor{
+p{
     color: white
 }
 /* Footer */
 footer{
     background-color: rgb(80, 80, 80);
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
