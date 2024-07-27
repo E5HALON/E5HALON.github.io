@@ -2,23 +2,26 @@ body{
     background-color: black;
 }
 /* Header */
+hr{
+    height: 2px;
+}
 header{
-    background-color: rgb(80, 80, 80);
-    width: 100%;
+    background: linear-gradient(90deg blue, black blue);
 }
 h1{
     text-align: center;
     font-size: 50px;
-    background: linear-gradient(90deg blue, black blue);
-    color: aqua, ghostwhite, aqua;
+    color: ghostwhite;
 }
 /* Main */
+/* Put button in div if not center */
 .button{
     font-size: 25px; 
     border-radius: 20px; 
     background-color: rgb(255, 0, 0); 
     color:black;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 p{
     color: white

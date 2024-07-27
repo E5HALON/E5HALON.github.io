@@ -2,21 +2,18 @@ body{
     background-color: gray;
 }
 /* Header */
-header{
-    background-image: url(Images/airport-1.png);
-    width: 100%;
-    margin-top: 100%;
-}
 h1{
     color: blue;
-    background: linear-gradient(90deg, rgb(127, 0, 127),rgb(0,127,127));
+    background: linear-gradient(90deg, rgb(127, 0, 127)25%,rgb(0,127,127)75%,rgb(127,0,127));
     font-family: sans-serif;
     font-size: 75px;
-    text-shadow: 5px 5px 4px red, -5px -5px 4px red, -5px 5px 4px red, 5px -5px 4px red;
+    text-shadow: 5px 5px 4px 5px red, -5px -5px 4px 5px red, -5px 5px 4px 5px red, 5px -5px 4px 5px red;
     text-align: center;
+    margin-top: 100%;
 }
-.input{
-    margin: auto;
+form{
+    margin-left: auto;
+    margin-right: auto;
 }
 #infobutton{
     background-color:rgb(0, 255, 242); 
@@ -28,32 +25,33 @@ h1{
     margin-bottom: 5px;
 }
 /* Main */
-#section1{
+#aud1{
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 #syoulink{
     margin-left: 30px;
+    margin-bottom: 100px;
 }
 #husky1{
     margin-left: 100px;
 }
-#box1{
+/* Footer */
+footer{
+    text-align: center;
+}
+#footerbox{
     width: 100%;
-    height: 200px;
-    background: linear-gradient(45deg, orange, red, purple, green, yellow);
+    height: 100px;
+    background: linear-gradient(45deg, orange, red, blue, purple, green, yellow);
     box-shadow: 3px 3px 5px black, -3px -3px 5px black, -3px 3px 5px black, 3px -3px 5px black;
 
 }
-/* Footer */
-footer{
-    background-image: url(Images/Mountain-forest.png);
-    text-align: center;
-    width: 100%;
-    border-top: 5px;
-    border-bottom: 10px;
-}
 .maillink{
     text-align: 7px auto;
+    color: black;
+}
+#myemail{
     color: black;
 }
